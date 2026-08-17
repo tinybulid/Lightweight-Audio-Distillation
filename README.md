@@ -192,21 +192,7 @@ This gives the aligned network richer feature extraction while maintaining compa
 ---
 
 # Full Training Pipeline
-
-Original figure path:
-
-```text
-images/StPlusKnwldge_figure3.pdf
-```
-
-[Open the training pipeline diagram](images/StPlusKnwldge_figure3.pdf)
-
-For inline GitHub rendering, export the same figure as PNG and use:
-
-```markdown
 ![Training Pipeline](images/StPlusKnwldge_figure3.png)
-```
-
 ---
 
 # Staged Training
@@ -679,13 +665,6 @@ The compact configuration is therefore **smaller while also achieving higher acc
 The system exceeds the first-ranked comparison by **0.7 percentage points** while using approximately half as many parameters.
 
 ![DCASE 2025 Comparison](images/Dcase2025.png)
-
-Original figure path:
-
-```text
-images/Dcase2025.png
-```
-
 ---
 
 # ESC-50 and UrbanSound8K Comparison
@@ -727,20 +706,7 @@ The gains begin to saturate around:
 - **230K parameters on ESC-50**
 - **300K parameters on UrbanSound8K**
 
-Original scaling-figure source:
-
-```text
-my_plot2.tex
-```
-
-[Open parameter-scaling source](my_plot2.tex)
-
-Because GitHub cannot render a PGFPlots `.tex` file inline, export it to an image if you want it visible directly in the README:
-
-```markdown
 ![Parameter Scaling](images/parameter_scaling.png)
-```
-
 ---
 
 # Compact and Higher-Capacity Configurations
