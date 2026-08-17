@@ -887,3 +887,35 @@ Tiny High-Accuracy Audio Classifier
 ```
 
 The result is a compact audio-classification system that achieves **state-of-the-art low-complexity performance on TAU** and highly competitive results on ESC-50 and UrbanSound8K while using dramatically fewer parameters than many larger alternatives.
+---
+
+# Code Implementation
+
+The complete implementation of the proposed framework is provided in this repository. The code has been separated into modules so that each part of the method described above can be inspected independently.
+
+## Code Structure
+
+```text
+lightweight_audio_distillation/
+├── models/
+│   ├── student.py
+│   ├── aligned_teacher.py
+│   └── teachers/
+├── distillation/
+├── training/
+├── evaluation/
+├── spectrum.py
+├── augmentations.py
+├── checkpoints.py
+├── config.py
+└── api.py
+
+scripts/
+├── extract_spectrum.py
+├── train_stage1.py
+├── train_stage2.py
+├── train_stage3.py
+├── test_student.py
+└── inspect_models.py
+
+checkpoints/
