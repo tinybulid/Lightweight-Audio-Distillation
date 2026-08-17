@@ -1,6 +1,6 @@
 # Lightweight-Audio-Distillation
 Lightweight audio classification framework achieving state-of-the-art or highly competitive results across multiple benchmarks while using dramatically fewer parameters and computational resources, enabling accurate and efficient deployment on resource-constrained and edge devices.
-%%%
+
 # Lightweight Audio Classification with Staged Knowledge Distillation
 
 A lightweight audio classification framework designed to push accuracy as high as possible while keeping **parameter count, memory footprint, and computation extremely small**.
@@ -59,13 +59,7 @@ The compact student contains roughly **77% fewer parameters** than the aligned t
 
 ## Architecture Diagram
 
-[Open the architecture diagram](images/Student - New.pdf)
-
-Source path:
-
-```text
-images/Student - New.pdf
-```
+![Student Architecture](images/Student-New.png)
 
 The backbone contains:
 
